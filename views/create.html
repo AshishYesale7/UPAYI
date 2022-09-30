@@ -42,7 +42,7 @@
         <h2 class="create-name">Create shareable UPI Payment links!</h2>
 
         <p class="create">Just add your UPI ID
-            here<br><b>https://upay.deta.dev/&lt;your-upi-id&gt;/&lt;amount&gt;</b><br><br>Or,<br><b>Use our UPI Link
+            here<br><b>https://stream.deta.dev/&lt;your-upi-id&gt;/&lt;amount&gt;</b><br><br>Or,<br><b>Use our UPI Link
                 Generator Tool</b></p>
         <div class="actions">
             <div class="pay-btn">
@@ -53,7 +53,7 @@
                     <span class="tooltiptext" id="myTooltip">Create and Copy Link</span>
                 </button>
                 <br><br>
-                <a href="https://upay.deta.dev/hstream@upi">
+                <a href="https://hstream.deta.dev/hstream@upi">
                     <button>
                         <span>Donate</span>
                     </button>
@@ -82,7 +82,7 @@
                 if (isNumeric(amountid.value)) {
                     amount = "/" + amountid.value;
                 }
-                upilink.value = "https://upay.deta.dev/" + upiid.value + amount;
+                upilink.value = "https://hstream.deta.dev/" + upiid.value + amount;
                 upilink.style.display = "block";
                 navigator.clipboard.writeText(upilink.value);
                 var copyText = document.getElementById("upilink");
